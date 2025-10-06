@@ -49,6 +49,7 @@ public class Application {
         final FormTeamUseCase formTeamUseCase = config.formTeamUseCase();
         final JoinTeamUseCase joinTeamUseCase = config.joinTeamUseCase();
         final LeaveTeamUseCase leaveTeamUseCase = config.leaveTeamUseCase();
+        final GetTopGradeUseCase getTopGradeUseCase = config.getTopGradeUseCase();
         final GetAverageGradeUseCase getAverageGradeUseCase = config.getAverageGradeUseCase();
         final GetTopGradeUseCase getTopGradeUseCase = config.getTopGradeUseCase();
 
@@ -326,6 +327,7 @@ public class Application {
         final JTextField courseField = new JTextField(20);
         // make a separate line.
         final JButton getAverageButton = new JButton("Get Average Grade");
+        final JButton getTopGradeButton = new JButton("Get Top Grade");
         // TODO Task 4: Add another button for "Get Top Grade" (check the getAverageButton for example)
         final JButton getTopButton = new JButton("Get Top Grade");
         final JButton leaveTeamButton = new JButton("Leave Team");
