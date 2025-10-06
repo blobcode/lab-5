@@ -49,7 +49,6 @@ public class Application {
         final FormTeamUseCase formTeamUseCase = config.formTeamUseCase();
         final JoinTeamUseCase joinTeamUseCase = config.joinTeamUseCase();
         final LeaveTeamUseCase leaveTeamUseCase = config.leaveTeamUseCase();
-        final GetTopGradeUseCase getTopGradeUseCase = config.getTopGradeUseCase();
         final GetAverageGradeUseCase getAverageGradeUseCase = config.getAverageGradeUseCase();
         final GetTopGradeUseCase getTopGradeUseCase = config.getTopGradeUseCase();
 
